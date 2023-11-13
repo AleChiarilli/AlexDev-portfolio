@@ -1,20 +1,20 @@
-import { Navbar } from '@/components/Navbar'
-import './globals.css'
-import type { Metadata } from 'next'
-import { Prosto_One } from 'next/font/google'
-import { Header } from '@/components/Header'
+import { Navbar } from "@/components/Navbar";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Quicksand } from "next/font/google";
+import { Header } from "@/components/Header";
 
-const prosto = Prosto_One({ subsets: ['latin'], weight: "400" })
+const prosto = Quicksand({ subsets: ["latin"], weight: "500" });
 
 export const metadata: Metadata = {
-  title: 'Portfolio TarreDev - NextJS 13',
-  description: 'Portfolio animated',
-}
+  title: "Portfolio AleChiarilli",
+  description: "Portfolio animated",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="es">
@@ -24,5 +24,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  )
+  );
 }
