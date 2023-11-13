@@ -24,8 +24,8 @@ body {
 }
 
 .currentIconPage svg {
-  stroke: #f5741c;
-  fill: #f5741c;
+  stroke: #5800FF;
+  fill: #72FFFF;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
