@@ -1,9 +1,10 @@
 "use client";
 import { useCallback } from "react";
-import { Particles } from "react-tsparticles";
+import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine } from "tsparticles-engine";
 import { optionsParticles } from "./particleOptions";
+import Introduction from "../Introduction/Introduction";
 
 export function Cover() {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -21,6 +22,7 @@ export function Cover() {
         loaded={particlesLoaded}
         options={optionsParticles}
       />
+      <Introduction />
     </div>
   );
 }
