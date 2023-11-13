@@ -20,7 +20,7 @@ export function Header() {
               <span className="text-secondary">Dev</span>
             </h1>
           </Link>
-          <div className="flex items-center justify-center gap-7">
+          <div className="flex items-center justify-center gap-7 mr-4">
             {socialNetworks.map(({ logo, src }) => (
               <Link
                 key={src}
