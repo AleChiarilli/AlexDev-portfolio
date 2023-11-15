@@ -36,7 +36,9 @@ export default function Introduction() {
               </span>
             </h1>
             <p className="max-w-sm  mb-10 text-xl md:max-w-2xl md:mx-0 md:mb-16 md:text-xl">
-              Web developer, naturally curious, and perpetually working on improving my chops one goal at a time, always looking for fun work and great projects.
+              Web developer, naturally curious, and perpetually working on
+              improving my chops one goal at a time, always looking for fun work
+              and great projects.
             </p>
 
             <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row">
@@ -44,13 +46,13 @@ export default function Introduction() {
                 href="/projects"
                 className="px-6 py-3 my-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
               >
-                Ver proyectos
+                See projects
               </a>
               <a
                 href="/contact"
                 className="px-6 py-3 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary"
               >
-                Contacta conmigo
+                Contact me
               </a>
             </div>
           </motion.div>

@@ -15,7 +15,7 @@ export function Header() {
       >
         <div className="container justify-between mx-auto md:flex">
           <Link href="/">
-            <h1 className="my-3 text-4xl text-center text-white md:text-left">
+            <h1 className="my-3 ml-5 text-4xl text-center text-white md:text-left">
               Alex
               <span className="text-secondary">Dev</span>
             </h1>

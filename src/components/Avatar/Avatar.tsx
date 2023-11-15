@@ -10,10 +10,10 @@ export const Avatar = () => {
       initial="hidden"
       animate="show"
       exit="hidden"
-      className="bottom-0 right-0 mr-4 hidden md:inline-block md:absolute"
+      className="bottom-0 right-0 hidden md:inline-block md:absolute"
     >
       <Image
-        src="/assets/front_avatar.png"
+        src="/assets/front_avatar_about.png"
         alt="Avatar front"
         width="400"
         height="400"
