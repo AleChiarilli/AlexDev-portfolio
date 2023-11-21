@@ -1,29 +1,29 @@
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
-    text: "Años de experiencia",
+    endCounter: 12,
+    text: "Months programming",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
-    text: "Clientes satisfechos",
+    endCounter: 10,
+    text: "Languagues and libraries",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
-    text: "Proyectos finalizados",
+    endCounter: 4,
+    text: "Tittles and certifications",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
+    endCounter: 2,
+    text: "Hackatons",
     lineRight: false,
     lineRightMobile: false,
   },
@@ -32,57 +32,47 @@ export const dataCounter = [
 export const dataAboutSkills = [
   {
     id: 0,
-    text: "Skills",
+    text: "Studies",
     skills: [
       {
-        title: "Frontend Developer",
-        date: "2017",
+        title: "Bachelor in Data Processing",
+        date: "Venezuela, 2015",
       },
       {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Accountancy and Buss.",
+        date: "University of Carabobo, 2018",
+      },
+      {
+        title: "Full Stack developer",
+        date: "4Geeks Academy, 2022",
       },
     ],
   },
   {
     id: 1,
-    text: "Experiencia",
+    text: "Projects",
     skills: [
       {
-        title: "Netflix Inc.",
-        date: "2015",
+        title: "HOMYO, find professionals nearby",
+        date: "2023",
       },
       {
-        title: "Amazon",
-        date: "2020",
+        title: "Reezume, the resume generator",
+        date: "2023",
       },
     ],
   },
   {
     id: 2,
-    text: "Estudios",
+    text: "Currently studying",
     skills: [
       {
-        title: "Grado Universitario en Florida",
-        date: "2012-2016",
+        title: "IBM Full Stack Software Developer Professional Certificate",
+        date: "2023-2024",
       },
       {
-        title: "Máster desarrollo Frontend",
-        date: "2016-2018",
-      },
-    ],
-  },
-  {
-    id: 3,
-    text: "Masters",
-    skills: [
-      {
-        title: "Frontend Developer",
-        date: "2017",
-      },
-      {
-        title: "Full Stack Developer",
-        date: "2020",
+        title: "Development of Apps with web technologies (P.C.)",
+        date: "2023",
       },
     ],
   },

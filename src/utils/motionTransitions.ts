@@ -24,6 +24,10 @@ export const motionTransitionsAbout = {
     type: "tween",
     ease: [0.25, 0.6, 0.3, 0.8],
   },
+  animate: {
+    opacity: 1,
+    transform: "translateY(0px)",
+  },
 };
 
 export const fadeIn = (direction: string, delay: number) => {
