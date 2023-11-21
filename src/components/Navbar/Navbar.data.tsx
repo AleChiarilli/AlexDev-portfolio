@@ -1,4 +1,10 @@
-import { RiHome4Line, RiAccountPinCircleLine, RiServerLine, RiBriefcase2Line, RiChatPollLine } from "react-icons/ri";
+import {
+  RiHome4Line,
+  RiAccountPinCircleLine,
+  RiServerLine,
+  RiBriefcase2Line,
+  RiChatPollLine,
+} from "react-icons/ri";
 
 export const dataNavbar = [
   {
@@ -12,8 +18,8 @@ export const dataNavbar = [
     icon: <RiAccountPinCircleLine size="30" />,
   },
   {
-    name: "services",
-    path: "/services",
+    name: "stack",
+    path: "/stack",
     icon: <RiServerLine size="30" />,
   },
   {

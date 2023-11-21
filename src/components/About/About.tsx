@@ -31,7 +31,7 @@ export const About = () => {
           in the browser.
         </p>
 
-        <div className="grid justify-between grid-cols-2 gap-3 my-8 md:flex md:grid-cols-4 md:gap-6">
+        <div className="grid justify-between grid-cols-2 gap-3 my-12 md:flex md:grid-cols-4 md:gap-6">
           {dataCounter.map(
             ({ id, endCounter, text, lineRight, lineRightMobile }) => (
               <div key={id} className={`${lineRight && "ltr"}`}>
@@ -61,7 +61,7 @@ export const About = () => {
                     ? "text-secondary duration-300 transition-all border-secondary"
                     : "border-white"
                 }
-              cursor-pointer md:text-lg relative px-2 md:px-8 py-4 border-2 round flex justify-between items-center my-3
+              cursor-pointer md:text-lg relative px-2 md:px-8 py-2 border-2 round flex justify-between items-center
               `}
                 onClick={() => setIndex(itemIndex)}
               >

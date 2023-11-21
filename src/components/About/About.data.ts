@@ -71,7 +71,7 @@ export const dataAboutSkills = [
         date: "2023-2024",
       },
       {
-        title: "Development of Apps with web technologies (P.C.)",
+        title: "App development with web technologies Professional Certificate",
         date: "2023",
       },
     ],
