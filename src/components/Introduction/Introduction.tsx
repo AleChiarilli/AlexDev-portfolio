@@ -15,6 +15,7 @@ export default function Introduction() {
             exit="hidden"
           >
             <Image
+              className="pointer-events-none"
               src="/assets/avatar.png"
               priority
               width="400"

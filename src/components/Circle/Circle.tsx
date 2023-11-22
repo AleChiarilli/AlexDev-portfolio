@@ -3,7 +3,7 @@ import { fadeIn } from "@/utils/motionTransitions";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export const Avatar = () => {
+export function Circle() {
   return (
     <motion.div
       variants={fadeIn("left", 0.5)}
@@ -13,12 +13,12 @@ export const Avatar = () => {
       className="bottom-0 right-0 hidden md:inline-block md:absolute"
     >
       <Image
-        className="pointer-events-none"
-        src="/assets/front_avatar_about.png"
-        alt="Avatar front"
-        width="400"
-        height="400"
+        src="/assets/avatar_sfera.png"
+        width="300"
+        height="300"
+        className="h-full w-full pointer-events-none"
+        alt="Circle"
       />
     </motion.div>
   );
-};
+}

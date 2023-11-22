@@ -60,6 +60,10 @@ export const dataAboutSkills = [
         title: "Reezume, the resume generator",
         date: "2023",
       },
+      {
+        title: "Kitchen Display System (Open Source)",
+        date: "Working on",
+      },
     ],
   },
   {
@@ -72,7 +76,7 @@ export const dataAboutSkills = [
       },
       {
         title: "App development with web technologies Professional Certificate",
-        date: "2023",
+        date: "2023-2024",
       },
     ],
   },
