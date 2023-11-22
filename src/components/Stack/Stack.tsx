@@ -9,7 +9,7 @@ export const Stack = () => {
     <div className="flex items-center justify-center h-screen -z-1">
       <Circle />
       <div className="flex flex-col md:flex-row gap-x-5">
-        <div className="flex flex-col text-center md:text-left md:w-[30vw] mb-10">
+        <div className="flex flex-col text-center md:text-left md:w-[30vw] mb-10 mr-10">
           <motion.h1
             className="mb-4 text-3xl"
             variants={fadeIn("up", 0.5)}
