@@ -36,7 +36,7 @@ export const Work = () => {
             exit="hidden"
             className="my-y text-2xl text-center md:text-4xl"
           >
-            My <span className="text-secondary">jobs</span>
+            My <span className="text-secondary">deploys</span>
           </motion.h1>
           <motion.div
             className="flex flex-col items-center h-full gap-5 px-2 md:flex-row"
