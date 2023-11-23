@@ -1,94 +1,118 @@
-import { SiTailwindcss, SiGithub, SiReact, SiNextdotjs, SiTestinglibrary } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { FaPython } from "react-icons/fa";
+import { RiBootstrapFill, RiJavascriptFill } from "react-icons/ri";
+import {
+  SiTailwindcss,
+  SiGithub,
+  SiNextdotjs,
+  SiCreatereactapp,
+  SiRedux,
+  SiVite,
+} from "react-icons/si";
+import { MdCss } from "react-icons/md";
 
 export const cardContent = [
   {
     id: 0,
-    title: "Calculator",
+    title: "HOMYO",
     description:
-      "Calculator project made by React and Tailwind CSS. ",
-    imageUrl: "/work-1.jpeg",
+      "Find your ideal professional and customer through geolocation",
+    imageUrl: "/Homyo-logo.jpg",
     skills: [
       {
-        icon: <SiReact size="40" />
+        icon: <RiJavascriptFill size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <FaPython size="40" />,
       },
       {
-        icon: <SiTestinglibrary size="40" />
+        icon: <RiBootstrapFill size="40" />,
       },
-    ]
+      {
+        icon: <SiTailwindcss size="40" />,
+      },
+      {
+        icon: <SiCreatereactapp size="40" />,
+      },
+    ],
+    url: "https://sample-service-name-pqox.onrender.com/",
   },
   {
     id: 1,
-    title: "Portfolio React",
+    title: "Reezume app generator",
     description:
-      "This is a description2, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-2.jpeg",
+      "User-friendly platform for generating professional resumes in easy, straightforward steps",
+    imageUrl: "/logo_reezume.jpg",
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiNextdotjs size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiTailwindcss size="40" />,
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiGithub size="40" />,
       },
-    ]
+    ],
+    url: "https://reezume.vercel.app/",
   },
   {
     id: 2,
-    title: "Strapi",
-    description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-3.jpeg",
+    title: "AlexDex API consumption",
+    description: "Your favourite 1st-gen PokeDex with all stats",
+    imageUrl: "/AlexDex.png",
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <BiLogoTypescript size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiRedux size="40" />,
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiCreatereactapp size="40" />,
       },
-    ]
+      {
+        icon: <SiTailwindcss size="40" />,
+      },
+    ],
+    url: "https://alexdex.vercel.app/",
   },
   {
     id: 3,
-    title: "Prestashop",
+    title: "iOS calculator",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-4.jpeg",
+      "A clone of the iOS calculator - identical functionalities and behaviors. Just for fun.",
+    imageUrl: "/ios_calculator.png",
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <BiLogoTypescript size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiVite size="40" />,
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <MdCss size="40" />,
       },
-    ]
+    ],
+    url: "https://calculator-vite-nu.vercel.app/",
   },
   {
     id: 4,
-    title: "E-Commerce React",
+    title: "To do list with React",
     description:
-      "This is a description, sjdnfsdf idfs sdhfbsdf jds fjsd gf sjdgns",
-    imageUrl: "/work-5.jpeg",
+      "Just a chill to-do list. Casual code for keeping things in check. 😎",
+    imageUrl: "/ToDo.png",
     skills: [
       {
-        icon: <SiNextdotjs size="40" />
+        icon: <SiNextdotjs size="40" />,
       },
       {
-        icon: <SiTailwindcss size="40" />
+        icon: <SiTailwindcss size="40" />,
       },
       {
-        icon: <SiGithub size="40" />
+        icon: <SiGithub size="40" />,
       },
-    ]
+    ],
+    url: "https://todo-list-pi-kohl.vercel.app/",
   },
 ];
